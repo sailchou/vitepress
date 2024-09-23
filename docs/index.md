@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-    name: '项目技术总结'
-    text: '分享项目开发中遇到的难点、踩坑点'
-    tagline: Next.js,React,Node.js,npm,pm2,tailwindcss,C#等技术
+    name: '欢迎来到我的博客'
+    text: '这里分享项目开发中遇到的经验、踩坑点'
+    tagline: Next.js,React,Node.js,npm,pm2,tailwindcss,C#等技术栈
     actions:
         - theme: brand
           text: 开始阅读
