@@ -32,7 +32,7 @@ export default defineConfig({
     ],
 
     footer: {
-      // message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+      message: 'Powered by <a href="https://vitepress.dev/">VitePress</a>',
       copyright: 'Copyright © 2024-present <a href="https://github.com/sailchou">sailchou</a>'
     },
 
