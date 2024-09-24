@@ -8,23 +8,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术总结', link: '/远程开发设置/sftp-linux' }
+      { text: '技术总结', link: '/VSCode设置/sftp-linux' }
     ],
 
     sidebar: [
       {
         text: 'VSCode 设置',
         items: [
-          { text: 'SFTP连接Linux主机', link: '/远程开发设置/sftp-linux' },
-          { text: 'Remote-SSH连接Linux主机', link: '/远程开发设置/remote-ssh-linux' },
-          { text: 'Remote-SSH遇到的坑点', link: '/远程开发设置/help-ssh-linux' },
+          { text: 'SFTP连接Linux主机', link: '/VSCode设置/sftp-linux' },
+          { text: 'Remote-SSH连接Linux主机', link: '/VSCode设置/remote-ssh-linux' },
+          { text: 'Remote-SSH遇到的坑点', link: '/VSCode设置/help-ssh-linux' },
         ]
       },
       {
         text: 'Nodejs 技术',
         items: [
-          { text: 'npm 命令详解', link: '/Nodejs技术/npm-cmd' },
-          { text: 'pm2 部署应用', link: '/Nodejs技术/pm2' },
+          { text: 'npm命令详解', link: '/Nodejs技术/npm-cmd' },
+          { text: 'pm2部署应用', link: '/Nodejs技术/pm2' },
+          { text: 'loadtest压力测试', link: '/Nodejs技术/loadtest' },
         ]
       },
     ],

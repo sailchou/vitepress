@@ -45,7 +45,8 @@ npm install <package-name> --global
 -   `npm update`: 更新包。
 -   `npm publish`: 发布包。
 -   `npm run`: 运行包。
--   `npm list`: 列出包。
+-   `npm list`: 列出当前项目安装的包。
+-   `npm list -g`: 列出全局安装的包。
 -   `npm cache clean`: 清空缓存。
 -   `npm cache verify`: 验证缓存。
 -   `npm audit`: 审核包。
@@ -70,49 +71,71 @@ npm install <package-name> --global
 
 ## npm 常用命令举例
 
+安装 `express` 模块，并将其包括在 `package.json` 文件中的 `dependencies` 中。
+
 ```sh
 npm install express
 ```
+
+或者
 
 ```sh
 npm install express --save
 ```
 
+安装 `prisma` 模块，将其包括在 `package.json` 文件中的 `devDependencies` 中。
+
 ```sh
-npm install vite --save-dev
+npm install prisma --save-dev
 ```
+
+全局安装 `pm2` 模块。
 
 ```sh
 npm install pm2 --global
 ```
 
+修改 npm 配置源地址
+
 ```sh
 npm config set registry https://registry.npm.taobao.org
 ```
+
+获取 npm 配置源地址
 
 ```sh
 npm config get registry
 ```
 
+删除 npm 配置源地址
+
 ```sh
 npm config delete registry
 ```
+
+获取 npm 配置项
 
 ```sh
 npm config list
 ```
 
+设置 npm 代理配置
+
 ```sh
-npm config set http-proxy http://127.0.0.1:8080
+npm config set proxy http://127.0.0.1:8080
 npm config set https-proxy http://127.0.0.1:8080
 ```
 
+获取 npm 代理配置
+
 ```sh
-npm config get http-proxy
+npm config get proxy
 npm config get https-proxy
 ```
 
+删除 npm 代理配置
+
 ```sh
-npm config delete http-proxy
+npm config delete proxy
 npm config delete https-proxy
 ```

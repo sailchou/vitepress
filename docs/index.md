@@ -9,7 +9,7 @@ hero:
     actions:
         - theme: brand
           text: 开始阅读
-          link: /远程开发设置/sftp-linux
+          link: /VSCode设置/sftp-linux
         - theme: alt
           text: 访问我的哔哩哔哩
           link: https://space.bilibili.com/2295328/
@@ -20,4 +20,4 @@ features:
       details: React19 最新特性
     - title: Nodejs
       details: npm pm2 生产环境部署
---- 
+---
