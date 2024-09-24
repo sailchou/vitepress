@@ -63,7 +63,9 @@ npm install <package-name> --global
 -   `npm config fix`: npm config fix
 
 > –-save：模块名将被添加到 dependencies，可以简化为参数-S。
+
 > –-save-dev：模块名将被添加到 devDependencies，可以简化为参数-D。
+
 > --global：将安装包放在 /usr/local 下或者你 node 的安装目录，可以简化为参数-g。
 
 ## npm 常用命令举例

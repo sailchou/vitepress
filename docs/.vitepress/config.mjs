@@ -24,6 +24,7 @@ export default defineConfig({
         text: 'Nodejs 技术',
         items: [
           { text: 'npm 命令详解', link: '/Nodejs技术/npm-cmd' },
+          { text: 'pm2 部署应用', link: '/Nodejs技术/pm2' },
         ]
       },
     ],
