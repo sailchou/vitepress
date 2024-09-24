@@ -69,7 +69,7 @@ module.exports = {
 };
 ```
 
-这样配置之后我们执行 pm2 start ecosystem.config.js，默认是使用的 env 配置，所以我们可以在 8001 端口访问到 node 应用；如果需要部署测试环境那么需要加一个 env 参数：`pm2 start ecosystem.config.js --env production`，一顿操作之后 8000 无法访问了，8001 可以访问了，测试环境部署成功！这样我们的 pm2 应用就部署成功了！部署成功之后难免有时候会出现问题，或者某些接口报错了，这个时候我们需要进行故障排查
+这样配置之后我们执行 pm2 start ecosystem.config.js，默认是使用的 env 配置，所以我们可以在 8000 端口访问到 node 应用；如果需要部署生产环境那么需要加一个 env 参数：`pm2 start ecosystem.config.js --env production`，一顿操作之后 8000 无法访问了，8001 可以访问了，测试环境部署成功！这样我们的 pm2 应用就部署成功了！部署成功之后难免有时候会出现问题，或者某些接口报错了，这个时候我们需要进行故障排查
 
 ## 6. 查看 PM2 日志
 
