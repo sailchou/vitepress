@@ -20,6 +20,12 @@ export default defineConfig({
           { text: 'Remote-SSH遇到的坑点', link: '/远程开发设置/help-ssh-linux' },
         ]
       },
+      {
+        text: 'Nodejs 技术',
+        items: [
+          { text: 'npm 命令详解', link: '/Nodejs技术/npm-cmd' },
+        ]
+      },
     ],
 
     socialLinks: [
