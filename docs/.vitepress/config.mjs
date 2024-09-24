@@ -8,23 +8,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术总结', link: '/markdown-examples' }
+      { text: '技术总结', link: '/远程开发设置/sftp-linux' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'VSCode 设置',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          {
-            text: 'SSR Examples', items: [
-              { text: 'Markdown Examples', link: '/ssr-markdown-examples' },
-              { text: 'Runtime API Examples', link: '/ssr-api-examples' },
-            ]
-          }
+          { text: 'SFTP连接Linux主机', link: '/远程开发设置/sftp-linux' },
+          { text: 'Remote-SSH连接Linux主机', link: '/远程开发设置/remote-ssh-linux' },
+          { text: 'Remote-SSH遇到的坑点', link: '/远程开发设置/help-ssh-linux' },
         ]
-      }
+      },
     ],
 
     socialLinks: [
