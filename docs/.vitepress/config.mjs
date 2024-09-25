@@ -23,9 +23,10 @@ export default defineConfig({
       {
         text: 'Nodejs 技术',
         items: [
-          { text: 'npm命令详解', link: '/Nodejs技术/npm-cmd' },
-          { text: 'pm2部署应用', link: '/Nodejs技术/pm2' },
-          { text: 'loadtest压力测试', link: '/Nodejs技术/loadtest' },
+          { text: 'npm 命令详解', link: '/Nodejs技术/npm-cmd' },
+          { text: 'pm2 部署应用', link: '/Nodejs技术/pm2' },
+          { text: 'loadtest 压力测试', link: '/Nodejs技术/load-test' },
+          { text: 'node环境变量', link: '/Nodejs技术/env' },
         ]
       },
     ],
