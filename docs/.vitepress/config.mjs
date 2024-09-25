@@ -18,6 +18,7 @@ export default defineConfig({
           { text: 'SFTP连接Linux主机', link: '/VSCode设置/sftp-linux' },
           { text: 'Remote-SSH连接Linux主机', link: '/VSCode设置/remote-ssh-linux' },
           { text: 'Remote-SSH遇到的坑点', link: '/VSCode设置/help-ssh-linux' },
+          { text: 'ssh连接windows主机', link: '/VSCode设置/ssh-windows' },
         ]
       },
       {
@@ -27,7 +28,6 @@ export default defineConfig({
           { text: 'pm2 部署应用', link: '/Nodejs技术/pm2' },
           { text: 'loadtest 压力测试', link: '/Nodejs技术/load-test' },
           { text: 'node 环境变量', link: '/Nodejs技术/env' },
-
         ]
       },
     ],
