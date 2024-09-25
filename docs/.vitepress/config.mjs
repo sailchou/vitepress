@@ -27,6 +27,7 @@ export default defineConfig({
           { text: 'pm2 部署应用', link: '/Nodejs技术/pm2' },
           { text: 'loadtest 压力测试', link: '/Nodejs技术/load-test' },
           { text: 'node 环境变量', link: '/Nodejs技术/env' },
+
         ]
       },
     ],
